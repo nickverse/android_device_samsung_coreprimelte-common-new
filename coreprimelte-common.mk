@@ -249,5 +249,5 @@ PRODUCT_PACKAGES += \
 # samsung qcom-common
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/fortuna-common/fortuna-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/coreprimelte-common/coreprimelte-common-vendor.mk)
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
