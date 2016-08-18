@@ -45,7 +45,7 @@ TARGET_CPU_CORTEX_A53 := true
 
 # Dex-preoptimization
 ifeq ($(HOST_OS),linux)
-  ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+  ifeq ($(TARGET_BUILD_VARIANT),user)
    ifeq ($(WITH_DEXPREOPT),)
     WITH_DEXPREOPT := true
    endif
